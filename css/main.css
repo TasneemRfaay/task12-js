@@ -1,0 +1,161 @@
+/*-------------------------------- home---------------------------------- */
+
+#home {
+  height: 90vh;
+  width: 100%;
+  background-image: url(/img/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+#home .layer {
+  background-color: rgba(251, 66, 66, 0.297);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+/* slider */
+#home #slider {
+  position: fixed;
+  background-color: black;
+  z-index: 5;
+  height: 100%;
+  left: -240.413px;
+}
+#home #slider .btn-close {
+  color: white !important;
+  opacity: 1 !important;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  position: absolute;
+  right: 50px;
+}
+#home #slider a {
+  font-size: 25px;
+  font-weight: 400;
+}
+.layer #open {
+  z-index: 99;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.layer #open p {
+  font-size: 30px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#home .layer #home-container {
+  position: absolute;
+  /*background-color: yellow;
+  */
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+#home .layer #home-container h1 {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 500;
+}
+#home .layer #home-container h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* ----------------------singers------------------------------------------------ */
+#singer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#singer #singer-container {
+  width: 45%;
+  align-self: center;
+}
+
+#singer #singer-container .singers {
+  background-color: #f59da0;
+  width: 100%;
+  cursor: pointer;
+}
+#singer #singer-container .singers h4 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/* ------------------countDown---------------------------------------- */
+#countDown {
+  background-image: url(/img/invitation.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  height: 30vh;
+  width: 100%;
+}
+#countDown #layer {
+  background-color: rgba(251, 66, 66, 0.536);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+#counts #days,
+#counts #hours,
+#counts #mins,
+#counts #sec {
+  border: 2px solid white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* -------------------------contact------------------------------------- */
+#contact .row .col-12 i {
+  color: #777;
+}
+#contact h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+}
+#contact h5 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 22px;
+}
+#contact p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #777;
+}
+#contact .row .col-12 .icons i {
+  padding: 10px;
+  border: 1px solid gray;
+  transition: all 400ms;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+}
+#contact .row .col-12 .icons i:hover {
+  color: white;
+  border-color: red;
+  background-color: RED;
+}
+#contact .col-12 span {
+  font-weight: 400;
+  font-size: 20px;
+}
